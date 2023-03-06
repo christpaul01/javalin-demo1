@@ -21,7 +21,7 @@ public class Main {
 
     public static void main(String[] args) {
         //Ejemplo hola mundo
-        String mensaje = "Hola Mundo en Javalin :-D";
+        String mensaje = "Hola Mundo en Javalin desde aplicacion 2 :-D";
         System.out.println(mensaje);
 
         //Creando la instancia del servidor y configurando.
@@ -97,7 +97,7 @@ public class Main {
         app.start(getHerokuAssignedPort());
 
         //creando el manejador
-        app.get("/", ctx -> ctx.result("Hola Mundo en Javalin :-D"));
+        app.get("/", ctx -> ctx.result("Hola Mundo en Aplicacion 2!"));
 
         //aplicando los diferentes conceptos.
         new ConceptoBasicosControlador(app).aplicarRutas();
