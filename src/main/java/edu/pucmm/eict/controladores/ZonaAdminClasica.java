@@ -16,7 +16,7 @@ public class ZonaAdminClasica extends BaseControlador {
 
         /**
          * Ejemplo para agrupar path según su contexto, ejemplo.
-         * http://localhost:7000/zona-admin-clasica/
+         * http://localhost:7001/zona-admin-clasica/
          *
          * Las sesiones pueden ser vulnerables por el robo se sesiones:
          * https://es.wikipedia.org/wiki/Secuestro_de_sesi%C3%B3n
