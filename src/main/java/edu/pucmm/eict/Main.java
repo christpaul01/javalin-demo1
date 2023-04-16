@@ -122,6 +122,7 @@ public class Main {
         //Endpoint ejemplos html5.
         app.get("/fecha", ctx -> {
             ctx.result(""+new SimpleDateFormat("dd/MM/yyyy HH:mm:ss").format(new Date()));
+            System.out.println(ctx.ip());
         });
 
         //Filtro para enviar el header de validación
